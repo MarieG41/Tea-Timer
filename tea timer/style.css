@@ -1,0 +1,94 @@
+body {
+    background-color: #DBCFBD;
+    color: #07484B;
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+gyphy-embed {
+    width:50%; height: 50%;position:absolute;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Abril Fatface', serif;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tea-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    color: #07484B;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin: 30px 10px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #95B299;
+}
+
+a:hover {
+    background-color: #07484B;
+    color: #95B299;
+}
+a:focus {
+   background-color: #DA667B; 
+   color: #453935;
+}
+
+p {
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    font-size: 60px;
+    color: #07484B;
+    border: 5px solid #95B299;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.param-btn {
+    text-align: center;
+    margin-top: 25px;
+}
+button {
+    color: #DA667B;
+    background-color: #DBCFBD;
+    border: 2px solid #95B299;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #95B299;
+}
+button:focus {
+    color: #95B299;
+    background-color: #07484B;
+}
